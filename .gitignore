@@ -1,0 +1,143 @@
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# =========================
+
+# Virtual Environment
+
+# =========================
+
+venv/
+env/
+.venv/
+ENV/
+
+# =========================
+
+# Environment Variables
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# Jupyter Notebook
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# Python Tools
+
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+
+# IDEs
+
+# =========================
+
+.vscode/
+.idea/
+*.iml
+
+# =========================
+
+# Operating System
+
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+
+# =========================
+
+# Model Cache
+
+# =========================
+
+.cache/
+models_cache/
+huggingface_cache/
+
+# Hugging Face local cache
+
+.huggingface/
+
+# =========================
+
+# Generated Results
+
+# =========================
+
+results/*.csv
+results/*.json
+
+# =========================
+
+# FAISS Index Files
+
+# =========================
+
+*.faiss
+*.index
+
+# =========================
+
+# Temporary Files
+
+# =========================
+
+*.tmp
+*.temp
+*.bak
+
+# =========================
+
+# Large Model Files
+
+# =========================
+
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# =========================
+
+# Secrets
+
+# =========================
+
+*.key
+*.pem
+secrets.json
+credentials.json
